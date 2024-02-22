@@ -1,0 +1,357 @@
+/* BİRİNCİ SAYFA*/
+
+body {
+    background-color: #f6f3f0;
+
+}
+
+.img img {
+
+    width: 700px;
+    height: 720px;
+    position: relative;
+    /* Resim içinde pozisyonlanma için container'ı relative olarak ayarlayın */
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+
+    text-align: center;
+    font-size: 120px;
+}
+
+.birincilogo {
+    color: #000000;
+    /* resmin üzerine konumlandırma yapmak için kullandım */
+    position: absolute;
+    /* sayfa başından yüzde 27 aşağıda */
+    top: 27%;
+    /* Solda yüzde 50 boşlu */
+    left: 50%;
+    /* Merkezi konumlandırma için */
+    transform: translate(-50%, -50%);
+    /* bu ise siyah renkli clinic yazısının gri renkli klinik yazısının üstüne çıkması için kullanıldı*/
+    z-index: 2;
+    letter-spacing: 50px;
+    /* Yazının kalınlığı */
+    font-weight: 200;
+    /* yazının stili*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ikincilogo {
+    color: #5A5959;
+    /* resmin üzerine konumlandırma yapmak için kullandım */
+    position: absolute;
+    /* sayfa başından yüzde 29 aşağıda */
+    top: 29%;
+    /* Solda yüzde 49 boşlu */
+    left: 49%;
+    /* Merkezi konumlandırma için */
+    transform: translate(-50%, -50%);
+    /* harfler arasındaki boşluk için */
+    letter-spacing: 50px;
+    /* Yazının kalınlığı */
+    font-weight: 200;
+    /* yazının stili*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.links {
+    /* resmin üzerine konumlandırma yapmak için kullandım */
+    position: absolute;
+    /* sayfa başından yüzde 15 aşağıda */
+    top: 10%;
+    /* Solda yüzde 50 boşlu */
+    left: 55%;
+    /* Bağlantıları resmin üzerine getirir */
+    z-index: 1;
+    right: 50px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+.custom-list {
+    list-style-type: none;
+    /* Noktaları kaldırır */
+}
+
+a:hover {
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+
+button {
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 60px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #403f3f;
+    transform: scale(1.2);
+    background-color: #5A5959;
+    z-index: 2;
+}
+
+.introduction {
+    font-size: 15px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+
+
+/* İKİNCİ SAYFA */
+
+.twopage-links ul {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    border-style: none;
+    padding: 20px;
+    background-color: #f6e6dc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.twopage-custom-list a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.twopage-custom-list {
+    list-style-type: none;
+}
+
+.twopage-container {
+    /* yazının stili*/
+    font-family: 'Times New Roman', Times, serif;
+    /* kelime arasındaki boşluk */
+    letter-spacing: 10px;
+
+}
+
+.twopage-birincilogo {
+    color: #000000;
+    /* resmin üzerine konumlandırma yapmak için kullandım */
+    z-index: 2;
+    position: absolute;
+    top: 740px;
+    left: 50px;
+    font-size: 25px;
+}
+
+.twopage-ikincilogo {
+    color: #5A5959;
+    position: absolute;
+    top: 745px;
+    left: 45px;
+    font-size: 25px;
+}
+
+.title {
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+
+h1 {
+    filter: drop-shadow(15px 5px 5px #5A5959);
+    margin-right: 1100px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.services {
+    width: 80%;
+    margin-left: 140px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+
+
+}
+
+.box {
+    width: 600px;
+    height: 300px;
+    background-color: #585857;
+    margin: 0px 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover {
+    transform: scale(1.2);
+    background-color: #797878;
+    z-index: 2;
+}
+
+.box img {
+    width: 275px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.information {
+    color: black;
+    width: 200px;
+    height: 170px;
+    background-color: #edd7c9;
+    border-radius: 20px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    opacity: 85%;
+}
+
+.information h4 {
+    margin-left: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.information p {
+    margin-left: 5px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mission {
+    background: linear-gradient(to bottom, #edd7c9, #ffffff);
+    opacity: 70%;
+    margin-left: 80px;
+    margin-right: 800px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.vision {
+    background: linear-gradient(to bottom, #edd7c9, #ffffff);
+    opacity: 70%;
+    margin-left: 750px;
+    margin-right: 120px;
+    padding: 30px;
+    position: absolute;
+    top: 269%;
+    border-radius: 10px;
+}
+
+
+.contactdetails h3 {
+    margin: 40px;
+}
+
+
+/* Harita konteynerinin stilini belirtmek için CSS kullanımı */
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 30%;
+    /* 16:9 en boy oranı için */
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+/* İframe'in stilini belirtmek için CSS kullanımı */
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 70%;
+    border: 0;
+    margin-top: 80px;
+}
+
+.communication {
+    background-color: #40403f;
+    padding: 0px;
+
+}
+
+.contactdetails {
+    color: white;
+    position: absolute;
+    top: 320%;
+    left: 40%;
+}
+
+.two {
+    margin-left: 300px;
+    position: absolute;
+    top: 40%;
+}
+
+.three {
+    position: absolute;
+    top: 40%;
+    margin-left: 630px;
+}
+
+.oneb {
+    margin-right: 700px;
+}
+
+.twob {
+    position: absolute;
+    top: 65%;
+    margin-left: 300px;
+    margin-right: 400px;
+}
+
+.threeb {
+    position: absolute;
+    top: 65%;
+    margin-left: 630px;
+    margin-right: 100px;
+}
+
+.phone {
+    position: absolute;
+    top: 120%;
+}
+
+.mail {
+    margin-left: 300px;
+    position: absolute;
+    top: 120%;
+}
