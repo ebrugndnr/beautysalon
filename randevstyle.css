@@ -1,51 +1,100 @@
 body {
-    background-color: #f6f3f0;
+
     font-family: 'Times New Roman', Times, serif;
+    background-color: #f6f3f0;
+}
+
+img {
+    width: 1500px;
+    height: 715px;
+    opacity: 90%;
 }
 
 .title {
     padding: 20px;
-
-}
-
-.title h3 {
-    margin-left: 50px;
+    position: absolute;
+    top: 1%;
 }
 
 .title h1 {
-    letter-spacing: 7px
-}
-
-button {
-    padding: 20px 500px;
-    background-color: #000000;
-    color: white;
-    cursor: all-scroll;
-}
-
-button:hover {
-    background-color: #ff0808;
-
-}
-
-.kisiselbil {
-    border-radius: 7px;
-    padding: 15px 30px;
-    background-color: white;
-    margin: 20px;
-    display: block;
-}
-
-form {
-    background-color: #f9e1c9;
-    text-align: center;
-    padding: 20px;
-    height: 400px;
-    width: 500px;
-
+    letter-spacing: 7px;
+    margin-left: 15px;
 }
 
 form h1 {
-    padding: 10px;
     text-align: center;
+    position: flex;
+    top: 1%;
+    left: 25%;
+
+}
+
+.form-group {
+    padding: 5px;
+    text-align: center;
+}
+
+.form-group-one {
+    padding: 5px;
+    text-align: center;
+}
+
+.datetime {
+    padding: 10px 50px;
+}
+
+h3 {
+    margin-left: 50px;
+
+}
+
+form {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 15px;
+    margin-right: 400px;
+    margin-left: 450px;
+    position: absolute;
+    top: 23%;
+    border-radius: 20px;
+}
+
+.gender {
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px 111px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: white;
+
+}
+
+input:hover {
+    background-color: #f6f3f0;
+}
+
+button {
+    padding: 10px 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+
+    background-color: #5A5959;
+}
+
+.form-group-checkbox-group {
+    margin-left: 50px;
+    margin-top: 10px;
 }

@@ -20,6 +20,7 @@ body {
     font-size: 120px;
 }
 
+
 .birincilogo {
     color: #000000;
     /* resmin üzerine konumlandırma yapmak için kullandım */
@@ -119,7 +120,7 @@ button:hover {
 .introduction {
     font-size: 15px;
     position: absolute;
-    top: 70%;
+    top: 67%;
     left: 20%;
     right: 20%;
     text-align: center;
